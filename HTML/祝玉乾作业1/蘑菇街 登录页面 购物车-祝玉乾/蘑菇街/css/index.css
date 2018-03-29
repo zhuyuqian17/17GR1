@@ -1,0 +1,144 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	
+}
+ul ,ol{
+	list-style: none;
+}
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.r{
+	float: right;
+}
+.l{
+	float: left;
+}
+.top{
+	height: 35px;
+	width: 100%;
+	background-color: #F2F2F2;
+}
+.temp{
+	line-height: 35px;
+	
+}
+/*.temp a img{
+	line-height: 35px;
+}*/
+.temp a{
+	border: 0px;
+	margin-left:12px ;
+	color: black;
+}
+.top2 a{
+	font-size: 12px;
+	left: -200px;
+	color: black;
+	
+}
+.top2 input:nth-of-type(1){
+	border: solid 1px black;
+	width: 90px;
+	height: 25px;
+	text-align: center;
+	border-right:0px ;
+	line-height: 35px;
+}
+.top2 input:nth-of-type(2){
+	border: solid 1px black;
+	width: 220px;
+	height: 25px;
+	border-left:0px ;
+	border-right:0px ;
+	margin-left: -10px;
+	line-height: 35px;
+}
+.top2 input:nth-of-type(3){
+	text-align: center;
+	background-color: bisque;
+	border: solid 1px black;
+	width: 80px;
+	height: 27px;
+	border-left:0px ;
+	margin-left: -5px;
+	line-height: 26px;
+}
+.top2{
+	height: 70px;
+	margin-top: 20px;
+}
+.top3{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: solid 2px #FF0077;
+}
+.top3 ul,.top3 ul li{
+	display: inline-block;
+}
+.top3 li{
+	border-left:solid 1px #DDDDDD;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 141px;
+}
+.top3 ul li:first-of-type{
+	
+	width: 241px;
+	/*height: 30px;*/
+	background-color: #FF0077;
+}
+.top3 ul li:nth-of-type(2){
+	border-left: 0px;
+}
+.top3 ul li a{
+	color: black;
+}
+/*.top3 ul li:nth-of-type(1)a{
+	color: white;
+}*/
+.menu-l{
+	width: 241px;
+	background-color: #FFE5E5;
+}
+.menu-l li{
+	position: relative;
+	height: 30px;
+	width: 241px;
+	text-align: left;
+	line-height: 30px;
+}
+.menu-l li a{
+	color: black;
+	font-size:12px ;
+	margin-left: 12px;
+}
+.menu-l li span{
+	display:inline-block ;
+	height: 0px;
+	width: 0px;
+	border:solid 4px ;
+	border-color: transparent transparent transparent black;
+	position: absolute;
+	left: 230px;
+	top: 12px;
+}
+.menu-sec{
+	z-index: 9;
+	width: 480px;
+	position: fixed;
+	left: 410px;
+	background-color: aliceblue;
+	top: 156px;
+	
+}

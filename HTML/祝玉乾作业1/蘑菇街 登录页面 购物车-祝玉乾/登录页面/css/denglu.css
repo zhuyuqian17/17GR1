@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	
+}
+ul ,ol{
+	list-style: none;
+}
+.wrap{
+	width: 1400px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.r{
+	float: right;
+}
+.l{
+	float: left;
+}
+.top{
+	width: 100%;
+	height: 110px;
+	margin-top: 40px;
+}
+.top-r p{
+	font-size: 12px;
+	font-weight: 700;
+	border: solid 1px black;
+	height: 30px;
+	background-color: bisque;
+	line-height: 30px;
+}
+.mid{
+	width: 100%;
+	height: 600px;
+	background: url(../img/1.png) no-repeat center center;
+}
+.mid-r{
+	text-align: center;
+	width: 480px;
+	height: 380px;	
+	background-color: aliceblue;
+	opacity: 0.9;
+	margin-top: 80px;
+}
+#home input:first-of-type{
+	margin-top: 18px;
+	width: 360px;
+	height: 40px;
+}
+#home input:nth-of-type(2){
+	margin-top: 18px;
+	width: 360px;
+	height: 40px;
+}
+#home input:nth-of-type(3){
+	margin-top: 26px;
+	width: 360px;
+	height: 38px;
+	background-color: #gold;
+}
+#home a{
+margin-left: 100px;
+}
+#ios input:first-of-type{
+	margin-top: 18px;
+	width: 360px;
+	height: 40px;
+}
+#ios input:nth-of-type(2){
+	margin-top: 18px;
+	width: 137px;
+	height: 40px;
+	background-color: gold;
+}
+#ios input:nth-of-type(3){
+	margin-top: 18px;
+	width: 222px;
+	height: 40px;
+	
+}
+#ios input:nth-of-type(4){
+	margin-top: 26px;
+	width: 360px;
+	height: 38px;
+	background-color:  gold;
+}
+#ios a{
+margin-left: 100px;
+}
+.footer{
+	width: 100%;
+	height: 360px;	
+}
+.zuihou-a{
+	width:100%;
+	margin: auto;
+	
+}
+.div1{
+	margin-left: 60px;
+	margin-top: 50px;
+	width: 300px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+	
+}
+.div1 li{
+	text-align: center;
+	display: inline-block;
+	float: left;
+	margin-left: 63px;
+}
+.div1 li a{
+	color: black;
+}
+hr{
+	/*text-align: center;*/
+	margin: auto;
+}
+.a2{
+	margin-left: -60px;
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	font-size: 12px;
+	
+}
+.a2 ul li{
+	display: inline-block;
+	margin-left: 20px;
+}
+.a2 ul li a{
+	font-size: 16px;
+	color: black;
+}
+.a1{
+	margin-left: -170px;
+}
+
