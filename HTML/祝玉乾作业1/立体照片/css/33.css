@@ -1,0 +1,38 @@
+* {
+	padding:0;
+	margin:0;
+}
+.warp {
+	width:600px;
+	height:600px;
+	margin:50px auto;
+	border:solid 2px red;
+}
+
+.div1 {
+	display:block;
+	width: 333px;
+	height: 437px;
+	
+	
+	margin: 49px auto 0 auto;
+	/*插入图片设置大小*/
+	background:url(../img/捕获.PNG) 0px 0px / 340px 400px no-repeat;
+	/*设置图片的阴影部分及大小*/
+	box-shadow: -10px 15px 10px #333;
+	
+	/*图片旋转的角度在,z,y,z;*/
+	transform: rotateX(60deg) rotateY(5deg) rotateZ(-35deg);
+	/*围绕那个中心点动作*/
+	transform-origin:50% 50% 100px;	
+	-webkit-transform-origin:50% 50% 100px;
+	
+	/*3d旋转过来所需要的时间*/	
+	transition: all 3s ease-out;
+}
+.div1:hover {
+	/*阴影动作*/
+	box-shadow:-100px 100px 10px #fff;
+	/*图片转过来的角度*/
+	transform: rotate3D(0, 0, 0, 0deg);
+}

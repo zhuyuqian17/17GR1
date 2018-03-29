@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: aliceblue;
+}
+.div1{
+	width: 100%;
+	height: 700px;
+	border: solid   orangered 1px;
+	animation:tian 16s ease infinite alternate;
+}
+@-webkit-keyframes tian{
+0%{ background-color: azure;}
+10%{ background-color: beige;}
+20%{background-color: antiquewhite;}
+30%{ background-color: bisque;}
+40%{ background-color: beige;}
+50%{ background-color: lemonchiffon;}
+60%{ background-color: #FFE4C4;}
+70%{ background-color: bisque;}
+80%{ background-color: lightpink;}
+90%{ background-color: indianred;}
+100%{ background-color: darkslateblue;}
+}
+	
+
+
+.div1 a{
+	position: absolute;
+	top: 5%;
+	left: -200px;
+	width: 155px;
+	height: 217px;
+	background: url(../img/balloon.png);
+	animation:qiqiu 16s ease infinite alternate;
+	
+}
+@-webkit-keyframes qiqiu{
+	
+0%{  transform:rotate(15deg)  ;}
+25%{transform:rotate(20deg) ;left: 25%;}
+50%{transform:rotate(30deg) ;left: 50%;}
+75%{transform:rotate(-25deg) ; left: 75%;}
+100%{transform:rotate(15deg) ; left: 100%;}
+}
+.ground{
+	position: absolute;
+}
+.front{ 
+    height: 301px;
+    width: 100%;
+    bottom: 50px;
+    z-index: 90;
+
+    background: url(../img/groundFront.png)repeat-x center;
+}
+.a2{
+	width: 230px;
+	height: 370px;
+	z-index: 85;
+	left:320px;
+	top: 240px;
+	background: url(../img/friendshipShell.png);
+}
+.mid{
+	 height: 301px;
+    width: 100%;
+    z-index: 80;
+   bottom: 45px;
+    background:url(../img/groundMid.png)repeat-x;
+}
+.a1{
+	width: 500px;
+	height: 210px;
+	z-index: 70;
+	left: 100px;
+	top: 350px;
+	background:url(../img/dowEventCenter.png);
+}
+.a3{
+	width: 120px;
+	height: 263px;
+	left: 680px;
+	z-index: 70;
+	top: 350px;
+	background: url(../img/Glockenspiel.png);
+}
+.a4{
+	width: 350px;
+	height: 292px;
+	z-index: 70;
+	left: 1300px;
+	top:450px;
+	background: url(../img/Planetarium.png);
+}
+
+.back{
+	 height: 301px;
+    width: 100%;
+    z-index: 60;
+   bottom: 100px;
+   background: url(../img/groundBack.png);
+}
+.a5{
+	width: 90px;
+	height: 180px;
+	z-index: 55;
+	left: 850px;
+	top:350px;
+	background: url(../img/beans.png);
+}

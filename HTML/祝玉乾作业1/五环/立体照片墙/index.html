@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>立体照片墙</title>
+  <style>
+	*{padding:0;margin:0;}
+	html,body{background:#ccc;}
+	.heared {
+		margin: 200px auto;
+		-webkit-perspective: 1000px; 
+		-moz-perspective: 1000px; 
+		-ms-perspective: 1000px; 
+		perspective: 1000px; 
+	}
+	.heared1 {
+	   transform-style: preserve-3d;
+	   transform: rotateX(-30deg);
+	}
+	.heared2 div {
+		position: absolute;
+		height: 235px;
+		width: 235px;
+		left: 300px;
+		opacity: 0.75;		
+		border-radius: 15px;
+		transition:all .3s linear;
+	}
+	.heared2 div#i1 {
+		transform: rotateY(0deg) translateZ(200px);
+	}
+	.heared2 div#i2 {
+		transform: rotateY(60deg) translateZ(200px);
+	}
+	.heared2 div#i3 {
+		transform: rotateY(120deg) translateZ(200px);
+	}
+	.heared2 div#i4 {
+		transform: rotateY(180deg) translateZ(200px);
+	}
+	.heared2 div#i5 {
+		transform: rotateY(240deg) translateZ(200px);
+	}
+	.heared2 div#i6 {
+		transform: rotateY(300deg) translateZ(200px);
+	}
+	.heared2 div img {
+		height:235px;
+		width:235px;
+		border-radius: 15px;
+		transition:all .3s linear;
+	}
+
+	/* onhover effect */
+	.heared2 div:hover {
+		opacity: 1;
+	}
+	.heared2 div:hover  img{
+		height:335px;
+		width:335px;
+		margin-left:-50px;
+		margin-top:-50px;
+	}
+  </style>
+ </head>
+<body>
+	<div class="heared">
+		<div class="heared1">
+			<div class="heared2">
+				<div id="i1">
+					<img src="img/u=150253602,1170991203&fm=27&gp=0.jpg" />
+				</div>
+				<div id="i2">
+					<img src="img/u=2375876713,3570521292&fm=27&gp=0.jpg" />
+				</div>
+				<div id="i3">
+					<img src="img/u=2890788566,3060788620&fm=27&gp=0.jpg" />
+				</div>
+				<div id="i4">
+					<img src="img/u=720001424,3998303802&fm=27&gp=0.jpg" />
+				</div>
+				<div id="i5">
+					<img src="img/untitled.png" />
+				</div>
+				<div id="i6">
+					<img src="img/u=150253602,1170991203&fm=27&gp=0.jpg" />
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>

@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.wrap{
+     text-align: center;
+     margin: 0 auto;
+}
+nav li{
+  display: inline-block;
+   height: 200px;
+   line-height: 200px;
+   width: 200px;
+
+   border-radius: 50%;
+   margin-left: -50px;
+   margin-top: 50px;
+  
+}
+
+nav ul li span:first-of-type:before{
+	content: "wifi";
+}
+.wrap ul li:nth-of-type(1){
+	border: solid palevioletred 8px;
+	background-color: mediumspringgreen;
+}
+.wrap ul li:nth-of-type(2){
+	border: solid pink 8px;
+	background-color: #FFC0CB;
+}
+.wrap ul li:nth-of-type(3){
+	border: solid red 8px;
+	background-color: brown;
+}
+.wrap ul li:nth-of-type(4){
+	border: solid brown 8px;
+	background-color: beige;
+}
+.wrap ul li:nth-of-type(5){
+	border: solid blue 8px;
+	background-color: palegreen;
+}
+.wrap ul li:nth-of-type(6){
+	border: solid palegreen 8px;
+	background-color: mediumspringgreen;
+}
+nav ul li:hover{
+	color: sandybrown;
+	background: lightcoral;
+	border: aquamarine;
+	transform: scale(1.1);
+	
+}

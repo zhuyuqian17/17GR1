@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+   padding: 0;
+}
+body{
+	height: 100%;
+}
+.warp{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+a{
+	height: 100%;
+}
+.r{
+	float: right;
+}
+.l{
+	float: left;
+}
+.top{
+	height: 35px;
+	width: 100%;
+	background-color: mediumturquoise;
+	line-height: 35px;
+	}
+.top a{
+	margin-left:20px;
+}

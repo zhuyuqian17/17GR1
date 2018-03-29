@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			.div1{
+				height: 501px;
+				width: 500px;
+				background-color: red;
+				margin: 0px auto;
+				padding: 20px;
+				border-radius: 1000px;
+			}
+			.div2{
+				height: 200px;
+				width: 6px;
+				background-color: chartreuse;
+				margin: 250px auto;
+				-webkit-animation: shijian 60s linear infinite alternate;
+				animation: shijian 60s linear infinite alternate;
+			}
+			.div2::after{
+				 content: "";
+				 display: block;
+				 height: 20px;
+				 width: 20px;
+				 border-radius: 10px ;
+				 background: yellowgreen;
+				 position: relative;
+				 left: -8px;
+				 top: 190px;
+				 bottom: -80px;
+			}
+			@-webkit-keyframes shijian{
+				from{
+					-webkit-transform-origin: top center;
+					transform: rotate(0deg);
+					-webkit-transform:rotate(0deg)
+				}
+				to{
+					-webkit-transform-origin: top center;
+					transform: rotate(360deg);
+					-webkit-transform:rotate(360deg)
+				}
+			}
+		</style>
+		<script type="text/javascript">
+			function hc(){
+				setInterval("ti.innerHTML=new Date().toLocaleString()")
+				
+			}
+		</script>
+	</head>
+	<body onload="hc()">
+		<h2 id ="ti"></h2>
+		<div class="div1">
+			<div class="div2">
+				
+				</div>
+		</div>
+	</body>
+</html>
+
+<SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>
